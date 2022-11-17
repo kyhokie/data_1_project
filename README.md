@@ -5,11 +5,11 @@ The primary CSV for this project is "TeslaFi92022 (updates for project).csv".
 
 This project was was created in Visual Studio Code V1.73.1
 Required imports are:
--import pandas as pd
--import numpy as np
--import matplotlib as mpl
--import matplotlib.pyplot as plt
--import statistics
+import pandas as pd
+import numpy as np
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import statistics
 
 
 Feature of the product include:
@@ -32,6 +32,6 @@ OTHER: **value_counts** to see how many days of the month were captured
 
 
 Feature 4: Visualize your data (two required)
-PLOT 1: 
-PLOT 2: 
-PLOT 3: 
+PLOT 1: Available range when online, by date
+PLOT 2: Requested amperage for charge, by date
+PLOT 3: Total range added by requested charge percentage
