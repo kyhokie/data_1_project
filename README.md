@@ -1,5 +1,5 @@
-# data_1_project
-This project is intended to provide a place to manipulate, modify, and view data exported as CSV from TeslaFi data logger.
+# Tesla charge report analysis - September
+This project is intended to provide a place to import, modify, and view data from TeslaFi data logger that is a CSV file.
 
 The primary CSV for this project is "TeslaFi92022 (updates for project).csv".
 
