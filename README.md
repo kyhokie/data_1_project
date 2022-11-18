@@ -5,11 +5,11 @@ The primary CSV for this project is "TeslaFi92022 (updates for project).csv".<br
 <br>
 This project was was created in Visual Studio Code V1.73.1<br>
 Required imports are:<br>
-import pandas as pd<br>
-import numpy as np<br>
-import matplotlib as mpl<br>
-import matplotlib.pyplot as plt<br>
-import statistics<br>
+-import pandas as pd<br>
+-import numpy as np<br>
+-import matplotlib as mpl<br>
+-import matplotlib.pyplot as plt<br>
+-import statistics<br>
 <br>
 <br>
 Feature of the product include:<br>
@@ -18,12 +18,12 @@ Data read in from local CSV 'TeslaFi92022 (updates for project).csv'<br>
 <br>
 Feature 2: Use built-in Pandas or Numpy functions to clean the data.<br>
 There are multiple cleanings of the data...<br>
-FIRST Cleaning: Scrubbing of data to only show when vehicle state is 'online'<br>
-SECOND Cleaning: Scrub to show when - Vehicle state is "Online"; Time to Full Charge == number; AND, Charger Actual Current == number <br>
-THIRD Cleaning: We still have a lot of data. Use of dropna() to clear rows with null/NaN values to give us a nice workable dataset.  This dataset was saved as the variable 'clean_Tesla'.<br>
+-FIRST Cleaning: Scrubbing of data to only show when vehicle state is 'online'<br>
+-SECOND Cleaning: Scrub to show when - Vehicle state is "Online"; Time to Full Charge == number; AND, Charger Actual Current == number <br>
+-THIRD Cleaning: We still have a lot of data. Use of dropna() to clear rows with null/NaN values to give us a nice workable dataset.  This dataset was saved as the variable 'clean_Tesla'.<br>
 <br>
 Feature 3: Analyze your data (five required)<br>
--ONE: <len()> to detail number of occurrences
+-ONE: <len()> to detail number of occurrences<br>
 -TWO: <statistics.mode> to find the most common State of Charge Limit in the month of September<br>
 -THREE: <np.sum> to total the column "charge_miles_added_rated"<br>
 -FOUR: <np.median> we see the median mileage added per charge<br>
@@ -33,6 +33,6 @@ Feature 3: Analyze your data (five required)<br>
 <br>
 <br>
 Feature 4: Visualize your data (two required)<br>
-PLOT 1: Available range when online, by date<br>
-PLOT 2: Requested amperage for charge, by date<br>
-PLOT 3: Total range added by requested charge percentage<br>
+-PLOT 1: Available range when online, by date<br>
+-PLOT 2: Requested amperage for charge, by date<br>
+-PLOT 3: Total range added by requested charge percentage<br>
