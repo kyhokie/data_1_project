@@ -7,9 +7,11 @@ This project was was created in Visual Studio Code V1.73.1<br>
 Required imports are:<br>
 -import pandas as pd<br>
 -import numpy as np<br>
--import matplotlib as mpl<br>
--import matplotlib.pyplot as plt<br>
 -import statistics<br>
+<br>
+<br>
+To prevent setcopywarning errors, it is recommended to run, at top level:<br>
+-<pd.options.mode.chained_assignment = None><br>
 <br>
 <br>
 Feature of the product include:<br>
